@@ -29,7 +29,7 @@ Introducing a novel global model-agnostic XAI method for deep learning-based tim
 
 ## Objective Evaluation Metrics
 
-# Table 1. Objective Evaluation Metrics for Rule-Based Explanation
+#### Table 1. Objective Evaluation Metrics for Rule-Based Explanation
 
 | Metric     | Definition                                            | Formula                                     |
 |------------|-------------------------------------------------------|---------------------------------------------|
