@@ -24,9 +24,7 @@ Introducing a novel global model-agnostic XAI method for deep learning-based tim
 
 ## Method Design 
 
-### ![Method Design Diagram](design\globXplain_V2.1-1.png)
-
-
+<img src="design/globXplain_V2.1-1.png" alt="Your Image" width="70%" />
 
 
 ## Objective Evaluation Metrics
@@ -43,7 +41,7 @@ Introducing a novel global model-agnostic XAI method for deep learning-based tim
 
 ## Result
 
-#### Table 4. Mean and standard deviation of the objective evaluation of the rule-based explanation
+#### Table 4. Mean and standard deviation of the objective evaluation of the rule-based explanation for LSTM-FCN model
 
 
 
@@ -55,7 +53,7 @@ Introducing a novel global model-agnostic XAI method for deep learning-based tim
 | FordB   | 0.81±0.04 | 0.86±0.05 | 7±4 | 37±33| 0.79±0.08 |
 
 
-#### Table 4. Mean and standard deviation of the objective evaluation of the rule-based explanation
+#### Table 4. Mean and standard deviation of the objective evaluation of the rule-based explanation for FCN model
 
 
 
@@ -75,13 +73,13 @@ To run the the simulation of the experiment, use the following command:
 
 * For FCN model
 ```
-python fcn_simulation --dataset [dataset-name] --num_runs [100 ] value1 --class_labels [list of the class names]
+python fcn_simulation --dataset [dataset-name] --num_runs [100 ]  --class_labels [list of the class names]
 ```
 
 
 * For LSTM-FCN model
 ```
-python fcn_simulation --dataset [dataset-name] --num_runs [100 ] value1 --class_labels [list of the class names]
+python fcn_simulation --dataset [dataset-name] --num_runs [100 ] --class_labels [list of the class names]
 ```
 
 
