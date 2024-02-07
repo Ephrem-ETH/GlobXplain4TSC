@@ -1,11 +1,11 @@
 # A Global Model-Agnostic Rule-Based XAI Method based on Parameterised Event Primitives for Time Series Classifiers
 
 
-<!-- This project is a novel global model agnostic rule-based XAI method tailored for deep learning based time series classifiers. While there is a plethora of eXplainable AI (XAI) methods designed to elucidate the functioning of models trained on image and tabular data but adapting these methods for explaining deep learning-based time series classifiers may not be straightforward due to the temporal nature of time series data. The temporal nature of time series data adds complexity, necessitating a specialized approach.
+This project is a novel global model agnostic rule-based XAI method tailored for deep learning based time series classifiers. While there is a plethora of eXplainable AI (XAI) methods designed to elucidate the functioning of models trained on image and tabular data, adapting these methods for explaining deep learning-based time series classifiers may not be straightforward due to the temporal nature of time series data. The temporal nature of time series data adds complexity, necessitating a specialized approach.
 
-Our project addresses this challenge with a novel methodology tailored for deep learning time series classifiers. The primary objective of this project is to offer a clear and interpretable understanding of deep learning-based time series classifiers while maintaining the temporal relationship in the sequence. The proposed solution aims to generate decision trees as explanations, providing insights that are comprehensible for human interpretation. -->
+Our project addresses this challenge with a novel methodology tailored for deep learning time series classifiers. The primary objective of this project is to offer a clear and interpretable understanding of deep learning-based time series classifiers while maintaining the temporal relationship in the sequence. The proposed solution aims to generate decision trees as explanations, providing insights that are comprehensible for human interpretation.
 
-Introducing a novel global model-agnostic XAI method for deep learning-based time series classifiers. Adapting existing methods for this context poses challenges due to the temporal nature of time series data. Our project addresses this with a specialized approach, aiming to offer clear, interpretable insights. The primary objective is to generate decision trees as explanations, enhancing transparency for human interpretation.
+<!-- Introducing a novel global model-agnostic XAI method for deep learning-based time series classifiers. Adapting existing methods for this context poses challenges due to the temporal nature of time series data. Our project addresses this with a specialized approach, aiming to offer clear, interpretable insights. The primary objective is to generate decision trees as explanations, enhancing transparency for human interpretation. -->
 
 ## File description
 
@@ -15,7 +15,7 @@ Introducing a novel global model-agnostic XAI method for deep learning-based tim
 
         - output.log: This file contains the objective evaluation of the method for each dataset and model type.
 
-                Example: Evaluation result for FCN model architecture trained on the ECG dataset can be found at experiments\results\simulation\ecg200\fcn--2024-01-08_16-01-07\output.log.
+        * Example: Evaluation result for FCN model architecture trained on the ECG dataset can be found at `experiments\results\simulation\ecg200\fcn--2024-01-08_16-01-07\output.log.`
 
 
     
