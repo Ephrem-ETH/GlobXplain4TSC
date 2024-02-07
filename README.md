@@ -1,7 +1,7 @@
 # A Global Model-Agnostic Rule-Based XAI Method based on Parameterised Event Primitives for Time Series Classifiers
 
 
-This project is a novel global model agnostic rule-based XAI method tailored for deep learning based time series classifiers. While there is a plethora of eXplainable AI (XAI) methods designed to elucidate the functioning of models trained on image and tabular data, adapting these methods for explaining deep learning-based time series classifiers may not be straightforward due to the temporal nature of time series data. The temporal nature of time series data adds complexity, necessitating a specialized approach.
+Introducing a new global model agnostic rule-based XAI method tailored for deep learning based time series classifiers. While there is a plethora of eXplainable AI (XAI) methods designed to elucidate the functioning of models trained on image and tabular data, adapting these methods for explaining deep learning-based time series classifiers may not be straightforward due to the temporal nature of time series data. The temporal nature of time series data adds complexity, necessitating a specialized approach.
 
 Our project addresses this challenge with a novel methodology tailored for deep learning time series classifiers. The primary objective of this project is to offer a clear and interpretable understanding of deep learning-based time series classifiers while maintaining the temporal relationship in the sequence. The proposed solution aims to generate decision trees as explanations, providing insights that are comprehensible for human interpretation.
 
