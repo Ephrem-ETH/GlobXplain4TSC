@@ -1,0 +1,37 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label=<decreases from time 69 to 71 with average value 1.85 &le; 14.5<br/>gini = 0.5<br/>samples = 33<br/>value = [17, 16]<br/>class = Gun>, fillcolor="#fdf8f3"] ;
+1 [label=<local minimum at time 19 with value -0.84 &le; 11.0<br/>gini = 0.453<br/>samples = 26<br/>value = [17, 9]<br/>class = Gun>, fillcolor="#f3c4a2"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label=<increases from time 42 to 65 with average value 0.06 &le; 2.5<br/>gini = 0.386<br/>samples = 23<br/>value = [17, 6]<br/>class = Gun>, fillcolor="#eead7f"] ;
+1 -> 2 ;
+3 [label=<local minimum at time 130 with value -0.88 &le; 6.5<br/>gini = 0.255<br/>samples = 20<br/>value = [17, 3]<br/>class = Gun>, fillcolor="#ea975c"] ;
+2 -> 3 ;
+4 [label=<local maximum at time 18 with value -0.82 &le; 8.5<br/>gini = 0.124<br/>samples = 15<br/>value = [14, 1]<br/>class = Gun>, fillcolor="#e78a47"] ;
+3 -> 4 ;
+5 [label=<gini = 0.0<br/>samples = 11<br/>value = [11, 0]<br/>class = Gun>, fillcolor="#e58139"] ;
+4 -> 5 ;
+6 [label=<local minimum at time 69 with value 1.14 &le; 4.5<br/>gini = 0.375<br/>samples = 4<br/>value = [3, 1]<br/>class = Gun>, fillcolor="#eeab7b"] ;
+4 -> 6 ;
+7 [label=<gini = 0.0<br/>samples = 3<br/>value = [3, 0]<br/>class = Gun>, fillcolor="#e58139"] ;
+6 -> 7 ;
+8 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = No Gun>, fillcolor="#399de5"] ;
+6 -> 8 ;
+9 [label=<local maximum at time 69 with value 1.17 &le; 4.5<br/>gini = 0.48<br/>samples = 5<br/>value = [3, 2]<br/>class = Gun>, fillcolor="#f6d5bd"] ;
+3 -> 9 ;
+10 [label=<gini = 0.0<br/>samples = 1<br/>value = [0, 1]<br/>class = No Gun>, fillcolor="#399de5"] ;
+9 -> 10 ;
+11 [label=<local maximum at time 69 with value 1.17 &le; 8.5<br/>gini = 0.375<br/>samples = 4<br/>value = [3, 1]<br/>class = Gun>, fillcolor="#eeab7b"] ;
+9 -> 11 ;
+12 [label=<gini = 0.0<br/>samples = 2<br/>value = [2, 0]<br/>class = Gun>, fillcolor="#e58139"] ;
+11 -> 12 ;
+13 [label=<gini = 0.5<br/>samples = 2<br/>value = [1, 1]<br/>class = Gun>, fillcolor="#ffffff"] ;
+11 -> 13 ;
+14 [label=<gini = 0.0<br/>samples = 3<br/>value = [0, 3]<br/>class = No Gun>, fillcolor="#399de5"] ;
+2 -> 14 ;
+15 [label=<gini = 0.0<br/>samples = 3<br/>value = [0, 3]<br/>class = No Gun>, fillcolor="#399de5"] ;
+1 -> 15 ;
+16 [label=<gini = 0.0<br/>samples = 7<br/>value = [0, 7]<br/>class = No Gun>, fillcolor="#399de5"] ;
+0 -> 16 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+}
