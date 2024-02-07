@@ -24,9 +24,7 @@ Introducing a novel global model-agnostic XAI method for deep learning-based tim
 
 ## Method Design 
 
-### ![Method Design Diagram](design\globXplain_V2.1-1.png)
-
-
+<img src="design\globXplain_V2.1-1.png" alt="Method Design Diagram" width="70%" />
 
 
 ## Objective Evaluation Metrics
