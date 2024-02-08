@@ -79,7 +79,7 @@ python fcn_simulation --dataset [dataset-name] --num_runs [100 ]  --class_labels
 
 * For LSTM-FCN model
 ```
-python fcn_simulation --dataset [dataset-name] --num_runs [100 ] --class_labels [list of the class names]
+python lstm_fcn_simulation --dataset [dataset-name] --num_runs [100 ] --class_labels [list of the class names]
 ```
 
 
