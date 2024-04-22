@@ -17,6 +17,7 @@ from tsai.utils import set_seed
 from sklearn.preprocessing import MinMaxScaler
 from  globXplain import GlobXplain4TSC
 from robustness import *
+from tabulate import tabulate
 from joblib import Parallel, delayed
 
 
@@ -219,7 +220,7 @@ if __name__ == "__main__":
 
         result_dict = monte_carlo_cross_val_parallel(num_runs, LSTM_FCN, class_labels, base_dir)
 
-        from tabulate import tabulate
+        
 
         forda_fcn_result = [
             ["Test Accuracy", f"{result_dict['t_acc_mean']:.2f} \u00B1 {result_dict['t_acc_std']:.2f}"],
